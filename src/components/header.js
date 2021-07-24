@@ -25,7 +25,7 @@ const Header = () => (
         </Link>
         <div className="flex items-center space-x-4 ml-auto w-auto inline-block text-white no-underline">
             <Link to="/" className="">
-                Home
+                Inicio
             </Link>
             <Link to="/designs" className="">
                 Diseños
