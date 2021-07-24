@@ -8,14 +8,15 @@ import Seo from "../components/seo"
 const ContactUs = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>hello</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div className="shadow-sm bg-white rounded-lg h-18">
-        
+    <div className="shadow-md p-4 bg-white rounded-lg h-18">
+    <h2>DATOS DE CONTACTO</h2>
+    <p className=""><b>Dirección:</b></p>
+    <p>Loma El Tesoro con Transveral Superior</p>
+    <p>Carrera: 25A # 1A Sur - 45</p>
+    <p>Local: 1604 - 1607</p>
+    <p>Piso: 1S</p>
+    <p>Teléfonos: (034) 322-8505 - 3146084536</p>
     </div>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

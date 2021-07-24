@@ -23,14 +23,14 @@ const Header = () => (
             alt="nini-logo-website-main"
             />
         </Link>
-        <div className="ml-auto w-1/3 inline-block">
-            <Link to="/" className="text-white no-underline">
+        <div className="ml-auto w-1/3 inline-block text-white no-underline">
+            <Link to="/" className="px-3">
                 Home
             </Link>
-            <Link to="/designs">
+            <Link to="/designs" className="px-3">
                 Diseños
             </Link>
-            <Link to="/contact-us">
+            <Link to="/contact-us" className="px-3">
                 Contáctanos
             </Link>
         </div>
