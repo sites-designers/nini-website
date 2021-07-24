@@ -18,7 +18,7 @@ const Header = () => (
             className="no-underline"
         >
             <StaticImage
-            src="../images/nini-logo.png"
+            src="../images/ninilogo.png"
             width={200}
             alt="nini-logo-website-main"
             />
@@ -30,7 +30,7 @@ const Header = () => (
             <Link to="/designs" className="px-3">
                 Diseños
             </Link>
-            <Link to="/contact-us" className="px-3">
+            <Link to="/contactus" className="px-3">
                 Contáctanos
             </Link>
         </div>
