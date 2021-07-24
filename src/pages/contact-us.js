@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const ContactUs = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Contact us" />
     <div className="shadow-md p-4 bg-white rounded-lg h-18">
     <h2>DATOS DE CONTACTO</h2>
     <p className=""><b>Dirección:</b></p>

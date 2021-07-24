@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="About us" />
     <h2>HISTORIA</h2>
     <p>Esta empresa nació en el 2020, donde su fundadora fue Fernanda Agudelo Bedoya. Ella desde su niñez le gustaba la costura, su madre era modista y Fernanda quería seguir los pasos de ella ya que era su pasión. A los 16 años decide estudiar plenamente el diseño de ropa, y mientras que estudiaba ahorra dinero para la empresa que quería montar. A los 23 años por primera vez inaugura su negocio de ropa aesthetic en un local de la ciudad de Medellín, luego de 4 años desde que emprendió su negocio, desplazó su microempresa a un centro comercial convirtiéndose en una mediana empresa y departamental. Ella quiso crear su empresa de ropa aesthetic porque en la actualidad ese estilo ha sido tendencia en la generación Z.
     La empresa está basada por el sector primario y terciario, y su actividad económica es confeccionar ropa aesthetic y venderlas en el mundo del comercio a través de la empresa NINI!</p>
