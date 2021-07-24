@@ -18,19 +18,19 @@ const Header = () => (
             className="no-underline"
         >
             <StaticImage
-            src="../images/ninilogo.png"
+            src="./static/674b3689bcb9d9975bee4d7480a5e45d/01b55/ninilogo.png"
             width={200}
             alt="nini-logo-website-main"
             />
         </Link>
         <div className="ml-auto w-1/3 inline-block text-white no-underline">
-            <Link to="/" className="px-3">
+            <Link to="/nini-website" className="px-3">
                 Home
             </Link>
-            <Link to="/designs" className="px-3">
+            <Link to="/nini-website/designs" className="px-3">
                 Diseños
             </Link>
-            <Link to="/contactus" className="px-3">
+            <Link to="/nini-website/contact-us" className="px-3">
                 Contáctanos
             </Link>
         </div>

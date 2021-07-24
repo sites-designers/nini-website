@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer
-            className="text-center mx-auto mt-8"
+            className="text-center mx-auto block mt-8"
         >
           © {new Date().getFullYear()}
         </footer>
