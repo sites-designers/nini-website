@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-op: ubuntu-latest
+    runs-os: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
