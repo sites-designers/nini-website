@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
   <header
@@ -10,20 +11,11 @@ const Header = () => (
     }}
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+        className="mx-auton p-3.5 flex flex-row"
     >
-      <logo />
-      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+            className="no-underline"
         >
             <StaticImage
             src="../images/nini-logo.png"
@@ -31,7 +23,17 @@ const Header = () => (
             alt="nini-logo-website-main"
             />
         </Link>
-      </h1>
+        <div className="ml-auto w-1/3 inline-block">
+            <Link to="/" className="text-white no-underline">
+                Home
+            </Link>
+            <Link to="/designs">
+                Diseños
+            </Link>
+            <Link to="/contact-us">
+                Contáctanos
+            </Link>
+        </div>
     </div>
   </header>
 )

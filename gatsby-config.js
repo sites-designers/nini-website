@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+      {
+          resolve: `gatsby-plugin-postcss`,
+          options: {
+              postCssPlugins: [require("tailwindcss")]
+          }
+      },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
