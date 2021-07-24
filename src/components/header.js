@@ -18,7 +18,7 @@ const Header = () => (
             className="no-underline"
         >
             <StaticImage
-            src="https://ibb.co/5hpPmn0"
+            src="https://i.ibb.co/1Gyk1dg/nini-logo.png"
             width={200}
             alt="nini-logo-website-main"
             />
