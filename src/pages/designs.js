@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const Designs = () => (
   <Layout>
     <Seo title="Designs" />
-    <h2>
+    <h2 className="font-serif">
         Designs
     </h2>
   </Layout>
