@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[691],{6738:function(e,t,a){"use strict";a.r(t);var r=a(7294),l=a(5127),n=a(3751);t.default=function(){return r.createElement(l.Z,null,r.createElement(n.Z,{title:"Home"}),r.createElement("h2",{className:"font-serif"},"NINI"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-d23af6a19f4dd926cc3b.js.map
